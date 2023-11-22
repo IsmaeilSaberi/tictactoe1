@@ -8,7 +8,7 @@ export default function Square() {
   return (
     <button
       onClick={handleClick}
-      className="px-2 w-20 h-20 text-xl font-bold border-[0.1rem] border-gray-900"
+      className="w-20 h-20 text-2xl flex-shrink-0 border-2 border-gray-900"
     >
       {value}
     </button>
